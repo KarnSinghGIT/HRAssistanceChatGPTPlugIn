@@ -1,1 +1,19 @@
 
+{
+  "schema_version": "v1",
+  "name_for_human": "HRAssistant.Plugin",
+  "name_for_model": "HRAssistant",
+  "description_for_human": "A plugin that provides candidate information for a company.",
+  "description_for_model": "A plugin that provides candidate information for a company.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5100/swagger/v1/swagger.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:5100/.well-known/logo1.png",
+  "contact_email": "support@hrassistant.com",
+  "legal_info_url": "http://www.example.com/legal"
+}
