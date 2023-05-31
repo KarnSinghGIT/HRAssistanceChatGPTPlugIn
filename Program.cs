@@ -58,7 +58,7 @@ app.MapGet("/personnal",  (string name) =>
 {
     CandidateResponse[] testData = new CandidateResponse[]
             {
-                new CandidateResponse("Karn Singh", "singh.karn@gmail.com", "https://www.linkedin.com/in/karnsinghprofile/"),
+                new CandidateResponse("Karn Singh", "singh.karn@example.com", "https://www.linkedin.com/in/karnsinghprofile/"),
                 new CandidateResponse("Aanya Gupta", "aanya.gupta@example.com", "https://www.linkedin.com/in/aanyagupta"),
                 new CandidateResponse("Ishaan Patel", "ishaan.patel@example.com", "https://www.linkedin.com/in/ishaanpatel"),
                 new CandidateResponse("Advait Desai", "advait.desai@example.com", "https://www.linkedin.com/in/advaitdesai"),
